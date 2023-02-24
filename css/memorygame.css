@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 5% auto;
+  /* border: solid black 2px; */
+}
+
+img {
+  width: 10rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0px;
+  row-gap: 5px;
+  width: 75%;
+  height: 100%;
+  margin: 10px auto;
+  /* border: solid black 2px; */
+}
